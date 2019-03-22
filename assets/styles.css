@@ -1,0 +1,64 @@
+body
+{
+	color: #2f2f2f;
+	background-color: #f0f0f0;
+	font-family: Raleway, Arial, sans-serif;
+}
+
+table
+{
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td
+{
+	padding: 20px;
+}
+
+tr:nth-of-type(2n)
+{
+	background-color: #bdbdbd;
+}
+
+a
+{
+	color: #2f2f2f;
+}
+
+thead
+{
+	font-weight: bold;
+}
+
+.box
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.myButton
+{
+	text-decoration: none;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-color: #2f2f2f;
+	color: #f0f0f0;
+	padding: 10px 15px;
+	border: 1px solid #2f2f2f;
+	border-radius: 3px;
+	transition: all 0.2s ease-in;
+	font-size: medium;
+}
+
+.myButton:hover
+{
+	background-color: #f0f0f0;
+    color: #2f2f2f;
+}
+
+.formDiv
+{
+	text-align: center;
+}
